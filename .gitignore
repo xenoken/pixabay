@@ -15,3 +15,4 @@ doc/api/
 .idea/
 secure/
 secure/api_key.dart
+doc/api/

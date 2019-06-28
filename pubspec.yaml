@@ -1,8 +1,9 @@
 name: pixabay
-description: A starting point for Dart libraries or applications.
+description: Unofficial Pixabay REST API for Dart
 version: 0.1.0
 homepage: https://github.com/xenoken/pixabay
 repository: https://github.com/xenoken/pixabay
+issue_tracker: https://github.com/xenoken/pixabay/issues
 author: Ken Ekeoha <ekeohak@gmail.com>
 
 environment:
