@@ -1,9 +1,9 @@
 name: pixabay
 description: A starting point for Dart libraries or applications.
 version: 0.1.0
-homepage: ---
-repository : ---
-author: Ken <kenomaru@hotmail.it>
+homepage: https://github.com/xenoken/pixabay
+repository: https://github.com/xenoken/pixabay
+author: Ken Ekeoha <ekeohak@gmail.com>
 
 environment:
   sdk: '>=2.2.0 <3.0.0'
