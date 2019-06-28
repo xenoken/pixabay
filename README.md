@@ -10,8 +10,15 @@ A simple usage example:
 ```dart
 import 'package:pixabay/pixabay.dart';
 
-main() {
-  var awesome = new Awesome();
+main() async{
+  var client = new PixabayClient(APIKey.value);
+  
+    var search = await client.searchPhoto("aurora",
+        language: SupportedLanguages.en, imgType: ImageTypes.photo);
+  
+    for (var p in search.photos) {
+      print(p.imageUrl);
+    }
 }
 ```
 
